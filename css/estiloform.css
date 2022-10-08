@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
+:root {
+    --azulclaro: #48D6ED;
+    --azuloscuro: #337AB7;
+    --azulnegro: #303342;
+    --negro: #333333;
+    --negro2: #000;
+    --gris: #B2B3B3;
+    --fondo: #FFFEFC;
+    --verdeazul: #157A8A;
+    --Magenta: #9C2759;
+    --blanco: #fff;
+    --degradado: linear-gradient(90deg, #337AB7 2.89%, #0B3860 80.34%);
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Marcellus', serif;
+}
+
+/*formulario*/
+
+.formulario{
+    background-image: url(../img/fondo_registrar.jpg);
+    background-size: 80%;
+}
+
+.form{
+    position: absolute;
+    width: 30%;
+    height: 97%;
+    background:rgba(1, 47, 100, 0.767)
+}
+
+.form-back{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: -15px;
+    background-size: cover;
+}
+
+.loguito{
+    display: flex;
+    position: absolute;
+    color: var(--blanco);
+    top: 120%;
+    left: 15%;
+    width: 60%;
+    height: 40%;
+}
+
+.b-form{
+    position: absolute;
+    padding-top: 40%;
+    top: 90%;
+    left: 100px;
+    font-size: 120%;
+    color: #fff;
+}
+
+.salida{
+    position: absolute;
+    background: var(--negro);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 100%;
+    left: -2px;
+    cursor: pointer;
+}
+
+.inform{
+    width: 50%;
+    height: 80%;
+    background-color: rgba(245, 241, 241, 0.59);
+    font-size: 29px;
+    top:10%; 
+    left: 40%;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.inform-title{
+    position: absolute;
+    width: 50%;
+    top: 2%;
+    left: 37%;
+    font-size: 100%;
+}
+
+.info{
+    position: absolute;
+    top: 20px;
+    font-size: 60%;
+    width: 100%;
+}
+
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.tipo{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.tipoform{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+.id{
+    position: absolute;
+    left: 400px;
+    top: 50px;
+} 
+
+.name{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+.namee{
+    position: absolute;
+    left: 400px;
+    top: 140px;
+}
+.date{
+    position: absolute;
+    left: 100px;
+    top: 230px;
+}
+
+.datein{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+.check{
+    position: absolute;
+    left: 400px;
+    top: 230px;
+    display: flex;
+}
+
+.pais{
+    position: absolute;
+    left: 100px;
+    top: 315px;
+}
+
+.cel{
+    position: absolute;
+    left: 400px;
+    top: 315px;
+}
+
+.mail{
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+
+.photo{
+    position: absolute;
+    left: 400px;
+    top: 400px;
+}
+
+.fotoo{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 60%;
+}
+
+.pass{
+    position: absolute;
+    left: 100px;
+    top: 500px;
+    font-size: 20px;
+}
+
+.confpass{
+    position: absolute;
+    left: 400px;
+    top: 500px;
+    font-size: 20px;
+}
+
+.condiciones{
+    position: absolute;
+    left: 100px;
+    top: 590px;
+    font-size: 20px; 
+}
+
+.cambiar{
+    background: var(--azulnegro);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.cambiar{
+    position: absolute;
+    left: 500px;
+    top: 590px; 
+}
+
+.cambiarpass{
+    background: var(--azulnegro);
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+}
